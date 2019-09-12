@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FreeRTOS Sourcs">
+      <UniqueIdentifier>{b1512636-e76b-48fb-8c56-e60fd0244092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Sourcs\FreeRTOS Source">
+      <UniqueIdentifier>{0dd198f2-1e3c-4027-9982-c1039da8887b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Sourcs\FreeRTOS Source\Include">
+      <UniqueIdentifier>{909c587c-13f6-47da-bb59-a43b28b23d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Sourcs\FreeRTOS Source\Source">
+      <UniqueIdentifier>{b2300d92-e544-41a8-9ec4-3be02a333ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Sourcs\FreeRTOS Source\Source\portable">
+      <UniqueIdentifier>{ad9c0046-4e95-4c07-82a6-32942668d2db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ut_led.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\drivers\led\drv_led_api.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\drivers\led\drv_led_x86.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\list.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_5.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Source\portable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\croutine.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOSConfig_template.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\message_buffer.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS Sourcs\FreeRTOS Source\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

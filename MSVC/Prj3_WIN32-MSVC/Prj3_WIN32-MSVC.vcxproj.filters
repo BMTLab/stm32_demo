@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{5909db87-b513-4ab5-97ab-bc28c4ecdce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source">
+      <UniqueIdentifier>{5f9c89a1-ffcb-4194-bfd8-1a47308d62b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source\Include">
+      <UniqueIdentifier>{c0d5fe88-d421-4e93-b1f6-5066c0da8336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source\drivers">
+      <UniqueIdentifier>{edf4544a-3365-4cff-92b1-4266ae3e5e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source\drivers\button">
+      <UniqueIdentifier>{a88fe8a0-e8f3-41f2-877d-89f3a6b4a60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source\drivers\led">
+      <UniqueIdentifier>{bbf767f4-5a40-4717-aacd-155cb2eae1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Source\Include\Source">
+      <UniqueIdentifier>{d3f68e5e-e765-48d9-910f-d8c86ab6b9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source">
+      <UniqueIdentifier>{d166d600-b9c3-4420-9d6a-40b333ee08d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Include">
+      <UniqueIdentifier>{07a22b74-ad55-4ecb-aa1a-3e3918973c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Source">
+      <UniqueIdentifier>{9c08cce4-bac8-4698-9a14-3a2ee6157918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS Source\Source\portable">
+      <UniqueIdentifier>{24a86f39-da72-4bfa-a222-80bc47ee529c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Inc\main.h">
+      <Filter>Application Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\StartTaskButton.h">
+      <Filter>Application Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\StartTaskLED.h">
+      <Filter>Application Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Inc\FreeRTOSConfig.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\button\drv_button_api.h">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\button\drv_button_arm.h">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\button\drv_button_x86.h">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\button\hwconfig_button.h">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\led\drv_led_api.h">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\led\drv_led_arm.h">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\led\drv_led_x86.h">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\led\hwconfig_led.h">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\drivers\led\led_internal.h">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\croutine.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOSConfig_template.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\message_buffer.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS Source\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\main.c">
+      <Filter>Application Source\Include\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\StartTaskButton.c">
+      <Filter>Application Source\Include\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\StartTaskLED.c">
+      <Filter>Application Source\Include\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\button\drv_button_api.c">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\button\drv_button_arm.c">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\button\drv_button_x86.c">
+      <Filter>Application Source\drivers\button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\led\drv_led_api.c">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\led\drv_led_arm.c">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\drivers\led\drv_led_x86.c">
+      <Filter>Application Source\drivers\led</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\list.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\queue.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\timers.c">
+      <Filter>FreeRTOS Source\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_5.c">
+      <Filter>FreeRTOS Source\Source\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS Source\Source\portable</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
